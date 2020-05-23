@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<style type="text/css">
+form{
+width: 100%;
+margin-top: 50px;
+margin-left: 200px;
+}
+label{
+background-position: center;
+}
+</style>
+</head>
+<body>
+<form>
+<div class="col-md-6">
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault01">First name</label>
+      <input type="text" class="form-control" id="r_fname"  required="required"/>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-6">
+    <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">Last name</label>
+      <input type="text" class="form-control" id="r_lname"  required="required"/>
+    </div>
+  </div>
+  </div>
+  <div class="col-md-6">
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationDefault03">DOB</label>
+      <input type="date" class="form-control" id="r_date" required="required"/>
+    </div>
+    </div>
+    <div class="col-md-6">
+    <div class="form-row">
+    <label for="validationDefault03">Gender</label>
+    <select class="custom-select">
+  <option selected>Gender</option>
+  <option value="1">Male</option>
+  <option value="2">Female</option>
+</select>
+    </div>
+    </div>
+    <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationDefault05">Salary</label>
+      <input type="number" class="form-control" id="r_salary" required="required"/>
+    </div>
+    </div>
+  </div>
+  </div>
+  <button class="btn btn-primary" type="submit" id="r_save">SAVE</button>
+</form>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script>
+// function saveRequestedData(frm, data, type){
+	
+// 	$.ajax({
+// 		contenttype:application/json;
+// 	    type:frm.attr("method"),
+// 	    url:attr("action"),
+// 	    datatype:'json',
+// 	    data:JSON.stringfy(data),
+// 	    success:function(data) {
+// 	    	alert(data.message);
+// 	    	fetchList(type);
+// 	    }
+// 	})
+		
+	
+// }
+
+</script>
+
+</body>
+</html>
